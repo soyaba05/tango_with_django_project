@@ -36,11 +36,11 @@ Templates and Media Files 47
 
         {% if pages %}
             <ul>
-                {% for page in pages %}
+            {% for page in pages %}
                 <li>
                     <a href="{{ page.url }}">{{ page.title }}</a>
                 </li>
-                {% endfor %}
+            {% endfor %}
             </ul>
         {% else %}
             <strong>There are no pages present.</strong>
